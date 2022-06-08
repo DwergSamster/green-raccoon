@@ -1,0 +1,127 @@
+body{
+    background-image: linear-gradient(to bottom right, palegreen, springgreen);
+    color: rgb(0,80,0);
+    font: 18px arial;
+    line-height: 18px;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+    background: #00fa9a;
+    width: 150px;
+    height: 20px;
+    font: 18px Arial;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 10px;
+}
+.menu li:hover{
+    background: aqua;
+    cursor: pointer;
+}
+.voorstellen{
+    width: 1150px;
+    height: 275px;
+    border: 15px solid #00fa9a;
+    padding: 20px;
+    margin: 20px;
+    line-height: 25px;
+}
+.pagina_tekst{
+    width: 1150px;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+    line-height: 25px;
+}
+.pagina_kopje{
+    width: 1150px;
+    height: auto;
+    border: 15px;
+    padding: 20px;
+    margin: 20px;
+    line-height: 25px;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    background: linear-gradient(to right, palegreen, springgreen);
+}
+.progress-container{
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to right, palegreen, springgreen);
+}
+.progress-bar{
+    height: 5px;
+    background: darkgreen;
+    width: 0;
+}
+.main_pagina_kopje{
+    width: 1150px;
+    height: auto;
+    border: 15px;
+    padding: 20px;
+    margin: 20px;
+    line-height: 25px;
+}
+.shop{
+    width: 1150px;
+    height: 425px;
+    border: 15px solid #00fa9a;
+    padding: 20px;
+    margin: 20px;
+    line-height: 25px;
+}
+.footer{
+    width: 1150px;
+    height: auto;
+    bottom: 0;
+    line-height: 25px;
+    font: 10px arial;
+    margin-top: 75px;
+}
+.shop_menu li{
+    display: inline-block;
+    text-align: center;
+    background: #00fa9a;
+    width: 200px;
+    height: 20px;
+    font: 18px Arial;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 10px;
+}
+.shop_menu li:hover {
+    background: aqua;
+    cursor: pointer;
+}
+.pagina_kopje_eind{
+    width: 1150px;
+    height: auto;
+    border: 15px;
+    padding: 20px;
+    line-height: 25px;
+    margin: 20px 20px 75px;
+}
+.platform_tekst{
+    width: 1150px;
+    height: auto;
+    border: 15px solid #00fa9a;
+    padding: 20px;
+    margin: 20px;
+    line-height: 25px;
+}
+.blog_tekst{
+    width: 1150px;
+    height: auto;
+    border: 15px solid #00fa9a;
+    padding: 20px;
+    margin: 20px;
+    line-height: 25px;
+}
